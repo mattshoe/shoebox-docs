@@ -12,6 +12,11 @@ body {
     color: #fff;
 }
 
+a {
+    color: #3391ff;
+    text-decoration: underline;
+}
+
 /* Header styles */
 header {
     background-color: #333;
@@ -147,6 +152,24 @@ main {
     background-color: #00C851;
     color: #fff;
     font-weight: bold;
+}
+
+.contact-icons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.contact-icons a {
+    display: inline-block;
+    font-size: 2rem;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.contact-icons a:hover {
+    transform: scale(1.1);
 }
 
 /* Footer styles */
