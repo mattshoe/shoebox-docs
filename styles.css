@@ -181,6 +181,7 @@ footer {
 
     .tile {
         padding: 1rem;
+        max-width: 100%;
     }
 }
 
