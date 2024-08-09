@@ -27,7 +27,7 @@ shareButton.addEventListener(
 
 function openSharePopup() {
     const popupWidth = 500;
-    const popupHeight = 300;
+    const popupHeight = 375;
     const popupLeft = (window.innerWidth - popupWidth) / 2;
     const popupTop = (window.innerHeight - popupHeight) / 2;
 

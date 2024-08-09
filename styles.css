@@ -255,6 +255,31 @@ footer {
     border-radius: 3px;
 }
 
+.fallback-share-options {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-top: 0px;
+}
+
+.fallback-share-options a {
+    color: #fff;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.fallback-share-options a:hover {
+    transform: scale(1.2);
+    background-color: #444;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.fallback-share-options i {
+    font-size: 2rem;
+}
+
 /* Media Queries for Mobile Responsiveness */
 @media (max-width: 768px) {
     .logo-title {
