@@ -32,6 +32,10 @@ header {
     gap: 1rem; /* Space between the logo and the title */
 }
 
+.logo-title a {
+    text-decoration: none;
+}
+
 /* Navigation styles */
 nav ul {
     list-style: none;
@@ -255,5 +259,11 @@ footer {
     .tag {
         font-size: 0.75rem;
         padding: 0.2rem 0.4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .drop-if-needed {
+        display: none
     }
 }
