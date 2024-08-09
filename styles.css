@@ -96,6 +96,31 @@ main section:not(:first-child) {
     margin-top: 50px;
 }
 
+#shareButton {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    padding: 0;
+}
+
+#shareButton:hover {
+    transform: scale(1.1);
+}
+
+#shareButton:focus {
+    outline: none;
+}
+
+.contact-icons a,
+#shareButton {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
 #intro {
     text-align: center;
     margin-bottom: 2rem;
