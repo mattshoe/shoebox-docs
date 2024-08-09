@@ -1,4 +1,8 @@
 /* Base styles */
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #262626 !important; /* Set a dark gray background color */
     font-family: Arial, sans-serif;
@@ -111,15 +115,15 @@ main {
 
 /* Specific release label colors */
 .release-label.stable {
-    background-color: #4CAF50; /* Green for stable */
+    background-color: #44CAF50; /* Green for stable */
 }
 
 .release-label.beta {
-    background-color: #FF9800; /* Orange for beta */
+    background-color: #FF8C42; /* Orange for beta */
 }
 
 .release-label.construction {
-    background-color: #F44336; /* Red for under construction */
+    background-color: #E53935; /* Red for under construction */
 }
 
 /* Tag styles */
