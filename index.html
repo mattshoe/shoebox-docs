@@ -251,7 +251,7 @@
         await navigator.share({ title: "Example Page", url: "" });
         console.log("Data was shared successfully");
       } catch (err) {
-        alert("This browser does not support the Share api. Try again from a Mobile device.")
+        alert("This browser does not support the Share api. Try again from a Mobile device. Error: " + err)
         console.error("Share failed:", err.message);
       }
     });
