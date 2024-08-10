@@ -185,11 +185,12 @@ main section:not(:first-child) {
 }
 
 .release-label.stable {
-    background-color: #44CAF50;
+    background-color: #28a745;
 }
 
 .release-label.beta {
-    background-color: #FF8C42;
+    background-color: #7b2cbf;
+    background-color: #008080
 }
 
 .release-label.construction {
